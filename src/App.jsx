@@ -1,14 +1,17 @@
 
-
-import Step1 from "./components/Step1.jsx";
+import Navbar from "./Sidenavbar/Navbar.jsx";
+import Sidebar from "./Sidenavbar/Sidebar.jsx";
+import Content from "./Sidenavbar/Content.jsx";
 function App() {
   return (
-  <>
-  <Step1/>
-  </>
-   
+    <>
+      <Navbar />
+      <Sidebar />
+      <Content />
+    </>
 
-      
+
+
   );
 }
 export default App

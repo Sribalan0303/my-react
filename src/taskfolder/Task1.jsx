@@ -1,12 +1,12 @@
 import Image from '../assets/uiux.jpg'
 import '/src/taskfolder/Task1.css'
-function Methed1() {
+function Task1() {
     const name = "sri";
     let study = "Merit Collage ";
     const mark = 95;
     const currentDate = new Date().toLocaleString();
     let Imge = Image;
-    let NUMBER = 5;
+    let NUMBER = 1;
 
     return (
         <div>
@@ -25,9 +25,9 @@ function Methed1() {
             <p>menu bar</p>
             <p>icons</p>
             <p>card design</p>
-            <h5>{NUMBER ? "odd" : "even"}</h5>
+            <h5>Odd Even Number : {NUMBER % 2 === 0 ? "odd" : "even"}</h5>
         </div>
     );
 
 }
-export default Methed1;
+export default Task1;
