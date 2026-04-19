@@ -1,9 +1,9 @@
 
 function Content() {
     return (
-        <Content>
+        <div>
             <h1 className="conrent">My content</h1>
-        </Content>
+        </div>
     );
 }
 export default Content;

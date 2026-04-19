@@ -1,9 +1,9 @@
 
 function Sidebar() {
     return (
-        <Sidebar>
+        <div>
             <h1 className="Sidbar">MY sidebar</h1>
-        </Sidebar>
+        </div>
     );
 }
 export default Sidebar;

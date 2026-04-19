@@ -1,4 +1,4 @@
-import '/src/component/Componet.css'
+import '/src/Day-02/Componet.css'
 function Header() {
     return (
         <header>   

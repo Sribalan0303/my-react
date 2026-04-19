@@ -1,0 +1,72 @@
+h1 {
+    color: rgb(226, 165, 43);
+    padding: 2px;
+    text-align: center;
+}
+
+h5 {
+    color: white;
+    position: relative;
+    left: 10px;
+}
+
+.productbox {
+    background-color: rgb(6, 6, 6);
+    margin: 5px;
+    border: 1px solid #020202;
+    width: 250px;
+    border-radius: 20px 20px 0px 0px;
+
+
+}
+
+.image {
+    width: 100%;
+    height: 250px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+.Continer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    float: left;
+    position: relative;
+}
+
+#Button {
+    width: 50%;
+    padding: 5px;
+    color: white;
+    background-color: rgb(98, 164, 234);
+    margin-bottom: 10px;
+    border: none;
+border-radius: 10px;
+}
+
+#Button2 {
+    width: 50%;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(237, 73, 73);
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+}
+.Continer{
+    position: relative;
+
+    left: 60px;
+}
+span{
+    color: white;
+}
+#countbutton1{
+margin: 8px;
+}
+
+#countbutton2{
+margin: 8px;
+
+}
